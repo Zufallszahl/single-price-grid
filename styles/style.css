@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -39,6 +39,8 @@ body {
     grid-template-rows: auto;
     margin: 3rem;
     width: 75ch;
+    border-radius: 10px;
+    box-shadow: 1px 5px 20px 5px rgba(152, 166, 189, 0.2);
 }
 
 .join {
@@ -63,8 +65,8 @@ body {
 }
 
 footer {
-    grid-column: 1 / 3;
     text-align: center;
+    margin-top: -2rem;
 }
 
 
@@ -112,6 +114,17 @@ footer {
     font-size: 1.1rem;
 }
 
+.why-us {
+    color: white;
+}
+
+.pros-list {
+    list-style: none;
+    padding-top: 1.3rem;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
 
 /* BUTTON */
 
@@ -122,10 +135,24 @@ footer {
     font-weight: 700;
     font-size: 1.2rem;
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     height: 50px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 6px 10px 0px #2a8b8b;
+    transition: 0.2s all;
+}
+
+.sign-up:active {
+    transform: scale(0.9);
+    box-shadow: 0px 6px 15px 0px #2a8b8b;
+}
+
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: var(--cyan);
 }

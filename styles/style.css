@@ -47,13 +47,13 @@ body {
     grid-column: 1 / 3;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .subscription {
     background-color: var(--cyan);
     border-bottom-left-radius: 5px;
-    padding: 3rem 0 0 3rem;
+    padding: 3rem 0 0 2.5rem;
 }
 
 .why-us {
@@ -91,7 +91,7 @@ footer {
 
 .subscription {
     color: white;
-    padding-right: 2rem;
+    padding-right: 2.5rem;
 }
 
 .sub-cost {
